@@ -2,7 +2,7 @@ package com.example.slatejack.diandianapp;
 
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.exoplayer2.ExoPlayerFactory;
 import com.google.android.exoplayer2.SimpleExoPlayer;
@@ -46,6 +46,7 @@ public class cctv1HD extends AppCompatActivity {
         // 当准备完毕后直接播放
         player1.setPlayWhenReady(true);
     }
+
     @Override
     //实现退出注销窗口
     protected void onDestroy() {

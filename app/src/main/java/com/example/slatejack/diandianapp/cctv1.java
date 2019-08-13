@@ -2,7 +2,7 @@ package com.example.slatejack.diandianapp;
 
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.exoplayer2.ExoPlayerFactory;
 import com.google.android.exoplayer2.SimpleExoPlayer;
@@ -19,7 +19,6 @@ import com.google.android.exoplayer2.upstream.DefaultDataSourceFactory;
 import com.google.android.exoplayer2.util.Util;
 
 public class cctv1 extends AppCompatActivity {
-    private String TAG = "FFPLAYER";
     private  SimpleExoPlayer player;
     PlayerView playerView;
     @Override
@@ -46,8 +45,8 @@ public class cctv1 extends AppCompatActivity {
         player.prepare(mediaSource);
         // 当准备完毕后直接播放
         player.setPlayWhenReady(true);
-    }
 
+    }
     @Override
     //实现退出注销窗口
     protected void onDestroy() {

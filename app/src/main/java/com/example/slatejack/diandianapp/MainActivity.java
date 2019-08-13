@@ -1,23 +1,32 @@
 package com.example.slatejack.diandianapp;
 
-import android.content.Intent;
-import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
-import android.view.View;
-
-import java.util.ArrayList;
-import java.util.List;
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
+    /*
     public static final String TAG = MainActivity.class.getCanonicalName();
     private List<String> mList = new ArrayList<>();
     private List<String> mList1 = new ArrayList<>();
+    FloatingActionButton floatingActionButton;
+    BottomAppBar bottomAppBar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate( savedInstanceState );
         setContentView( R.layout.activity_main );
+        floatingActionButton = findViewById(R.id.fab);
+        bottomAppBar = findViewById(R.id.bottomAppBar);
+        //main line for setting menuin bottom app bar
+        setSupportActionBar(bottomAppBar);//使底边栏的按钮可以实现点击操作
+        floatingActionButton.setOnClickListener(new View.OnClickListener() {
+            @SuppressLint("WrongConstant")
+            @Override
+            public void onClick(View v) {
+                Snackbar.make(v, "174020303 徐靖鸿", Snackbar.LENGTH_LONG)
+                        .setAction("UNDO", null)
+                        .show();
+            }
+
+        });
         initData();
         initData1();
         initView();
@@ -113,5 +122,5 @@ public class MainActivity extends AppCompatActivity {
         } );
 
     }
-
+*/
 }

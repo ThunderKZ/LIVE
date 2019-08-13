@@ -1,7 +1,6 @@
 package com.example.slatejack.diandianapp;
 
 import android.net.Uri;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.google.android.exoplayer2.ExoPlayerFactory;
@@ -17,6 +16,8 @@ import com.google.android.exoplayer2.upstream.DataSource;
 import com.google.android.exoplayer2.upstream.DefaultBandwidthMeter;
 import com.google.android.exoplayer2.upstream.DefaultDataSourceFactory;
 import com.google.android.exoplayer2.util.Util;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class cctv4HD extends AppCompatActivity {
     private  SimpleExoPlayer player;
